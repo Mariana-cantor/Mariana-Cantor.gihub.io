@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre"><!-- "el dato debe ser igual el del id-->
+            <span>¿cuál es tu nombre?</span>
+            <input type="text" name="nombre" id="nombre"><!-- type es el atributo más importante -->
+        </label>
+        <label for="nacimiento"><!-- "el dato debe ser igual el del id-->
+            <span>¿cuándo naciste?</span>
+            <input type="date" name="nacimiento" id="nacimiento"><!-- type es el atributo más importante -->
+        </label>
+        <label for="correo"><!-- "el dato debe ser igual el del id-->
+            <span>¿cuál es tu correo?</span>
+            <input type="e-mail" name="correo" id="correo"><!-- type es el atributo más importante -->
+        </label>
+        <label for="fecha 1 "><!-- "el dato debe ser igual el del id-->
+            <span>¿cuándo naciste?</span>
+            <input type="datetime-local" name="fecha 1" id="fecha 1"><!-- type es el atributo más importante -->
+        </label>
+        <label for="cars "><!-- "el dato debe ser igual el del id-->
+            <span>¿elige un carro?</span>
+            <select name="cars" id="cars">
+                <option value="Kia">Kia</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="toyota">toyota</option>
+                <option value="Chevrolet">Chevrolet</option>
+            </select><!-- " id es un identificador único. Importante en CSS-->
+        </label>
+        <-- for="frutas"><!-- "el dato debe ser igual el del id-->
+            <span>Elige una fruta </span>
+            <select name="frutas" id="frutas">
+                <option value="Mango">Mango</option>
+                <option value="Manzana">Manzana</option>
+                <option value="Fresa">Fresa</option>
+                <option value="Piña">Piña</option>
+                <option value="Melocotón">Melocotón</option>
+            </select>
+            <label for="frutas"><!-- "el dato debe ser igual el del id-->
+                <span>Elige una fruta </span>
+                <input list="fruta2">
+                <datalist id="fruta2">
+                    <option value="Mango">Mango</option>
+                    <option value="Manzana">Manzana</option>
+                    <option value="Fresa">Fresa</option>
+                    <option value="Piña">Piña</option>
+                    <option value="Melocotón">Melocotón</option> 
+                </datalist>
+            </label>
+            <input type="submit" name="enviar" id="enviar"><!-- submit envía formularios -->
+
+    </form>
+    <input type="button" value="haz clic aquí"><!-- botón genérico  -->
+<!-- FIN HTML  -->
+    
+</body>
+</html>
