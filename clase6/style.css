@@ -1,0 +1,31 @@
+*{
+    font-family: monospace;
+    background-color: brown;
+}
+p {
+	color: red;
+	text-align: center;
+}
+#para1 {
+color: aqua;
+text-align: left;
+}
+
+.ejemplo1{
+    color: blueviolet;
+    text-align: right;
+}
+.fondo{
+    background-color: black;
+}
+.fondo2{
+    background-color: aquamarine;
+}
+
+h2.ejemplo1 {
+    font-size: xx-large;
+
+}
+span, ul, ol, li {
+    background-color: chocolate;
+}
