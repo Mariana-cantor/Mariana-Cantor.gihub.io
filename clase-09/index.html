@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+          color: #ff0000;
+          font-variant: small-caps;
+        }
+        p::before {
+            content: url(https://images.tagesschau.de/image/fd633b08-6f3d-44e1-8342-09f1a6aad6ba/AAABiit7CxU/AAABkZLngyM/1x1-256/trump-polizeifoto-102.jpg);
+        }
+
+        ::selection {
+            color: aqua;
+            background-color: blue;
+        }
+        </style>
+</head>
+<body>
+    <p>Puede usar el pseudo-elemento ::first-line para agregar un efecto especial a la primera línea de un texto. Un poco más de texto. Y aún más, y más, y más, y más, y más, y más, y más, y más, y más, y más, y más, y más.</p>
+</body>
+</html>
